@@ -7,10 +7,15 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link rel="icon" type="image/ico" href="favicon.jpg" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script type="text/javascript">
+     $(window).load(function() {
+  $("body").removeClass("preload");
+});
+  </script>
 </head>
 </html>
 
-<body>
+<body class= "preload">
   <div class="navbar">
     <a href="index.html">Home</a>
     <a href="Equipment_StoffelRecording.html">Equipment</a>
@@ -32,8 +37,7 @@
   <div class="top-heading">EQUIPMENT</div>
 </div>
 <div class="equipment-container">
-  <div class="row">
-    <div class="column">
+    <div id="one">
       <h2>DAWs</h2>
         <p>Pro Tools, Studio One 3, Ableton Live 10, Logic Pro X</p>
       <h2>Hardware</h2>
@@ -47,7 +51,7 @@
           <li>Avid Eleven Rack guitar signal processor</li>
         </ul>
     </div>
-    <div class="column">
+    <div id="two">
       <h2>Plugins</h2>
         <p>Stoffel Recording Co. uses plugins from UAD, Kush Audio, McDSP, Avid,<br> iZotope, Eventide, Celemony, UVI, FabFilter, Soundtoys, Softube,<br> Slate Digital, Zynaptiq and many others.</p>
       <h2>Microphones</h2>
@@ -63,7 +67,6 @@
           <li>Miktek - C5 (x2)</li>
         </ul>
     </div>
-  </div>
 </div>
 <img src="images/CircleLogoGrey.png" alt="Stoffel Recording Co." class="footer-logo">
   <div class="footer-container">
