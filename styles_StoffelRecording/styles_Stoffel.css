@@ -292,7 +292,8 @@ li {
 
 .equipment-container {
 	max-width: 1200px;
-	margin: auto;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 #one {
@@ -342,11 +343,11 @@ li {
 	}
 
 	.navbar a {
-		font-size: 2rem;
+		font-size: 3rem;
 		} 
 	
 	.dropdown .dropbtn {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 
 	.social-links-top {
@@ -376,6 +377,19 @@ li {
 	.about-container {
 		width: 75%;
 	}
+
+	.about-content p {
+    	font-size: 2rem;
+    }
+
+    #one, #two {
+        display: block; 
+        float: none; 
+        width: 100%;
+        padding: 20px 0;
+    }
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -387,6 +401,7 @@ li {
 		padding: 75px 10px;
 	}
 
+
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -397,4 +412,5 @@ li {
         width: 100%;
         padding: 20px 0;
     }
+
 }
